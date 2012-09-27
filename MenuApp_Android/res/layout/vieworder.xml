@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:background="@drawable/newpic1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:layout_x="0dp" android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/LinearLayout01" android:layout_y="0dip">
+	<TextView android:text="View Your Order" android:textColor="#FFFFFF" android:textSize="20dp" android:textStyle="bold" android:gravity="center" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal" android:layout_x="110dp" android:layout_y="60dp" android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/LinearLayout02">
+
+	<TextView android:text="Name" android:paddingRight="100dp" android:textColor="#FFFFFF" android:textSize="15dp" android:id="@+id/TextView001" android:layout_width="wrap_content" android:layout_height="fill_parent"></TextView>
+	<TextView android:text="Quantity" android:paddingRight="100dp" android:paddingLeft="100dp" android:textColor="#FFFFFF" android:textSize="15dp" android:id="@+id/TextView003" android:layout_width="wrap_content" android:layout_height="fill_parent"></TextView>
+	<TextView android:text="Amount" android:paddingLeft="100dp" android:textColor="#FFFFFF" android:textSize="15dp" android:id="@+id/TextView003" android:layout_width="wrap_content" android:layout_height="fill_parent"></TextView>
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:layout_x="0dp" android:layout_width="100dp" android:layout_height="fill_parent" android:id="@+id/LinearLayout02" android:layout_y="50dp">
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/homebutton" android:id="@+id/Button01"></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/menubutton" android:id="@+id/Button02"  ></Button>	
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/view_orderbutton" android:id="@+id/Button03"  ></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/call_waiterbutton" android:id="@+id/Button05" ></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/helpbutton" android:id="@+id/Button04"></Button>
+	
+
+</LinearLayout>
+<LinearLayout android:layout_x="110dp" android:layout_width="wrap_content" android:layout_height="160dp" android:id="@+id/LinearLayout03" android:layout_y="120dp">
+<ListView android:id="@+id/ListView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ListView>
+</LinearLayout>
+
+<Button android:background="@drawable/confirm_button" android:layout_height="wrap_content" android:text="            " android:layout_width="wrap_content" android:id="@+id/Button06" android:layout_x="284dip" android:layout_y="303dip"></Button>
+
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView02" android:text="" android:layout_x="500dp" android:layout_y="300dp"></TextView>
+</AbsoluteLayout>

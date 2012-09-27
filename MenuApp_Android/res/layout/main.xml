@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:background="@drawable/newpic1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_x="0dp" android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/LinearLayout01" android:layout_y="0dip">
+	
+<ImageView android:background="@drawable/header" android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="220dp"></ImageView>
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:layout_x="0dp" android:layout_width="100dp" android:layout_height="fill_parent" android:id="@+id/LinearLayout02" android:layout_y="50dp">
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/homebutton" android:id="@+id/Button01"></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/menubutton" android:id="@+id/Button02"  ></Button>	
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/view_orderbutton" android:id="@+id/Button03"  ></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/call_waiterbutton" android:id="@+id/Button05" ></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/helpbutton" android:id="@+id/Button04"></Button>
+	
+
+</LinearLayout>
+<LinearLayout android:layout_x="80dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/LinearLayout03" android:layout_y="50dp">
+<TextView android:layout_marginLeft="15dp" 
+android:id="@+id/TextView02" 
+android:textColor="#ffffff"  
+android:gravity="fill_horizontal" 
+android:paddingRight="100dp" 
+android:paddingLeft="20dp" 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+
+android:text="Multi cuisine Restaurant Cum Bar overlooks the swimming pool. This well styled informal restaurant is the meeting point of all the
+		guests staying at the resort. Being open on all the sides, it gives a feeling of vastness and openness. Its generally very airy here.
+		The swimming-pool is situated on one side while the pool table is tucked in into the opposite side overlooking the bar making the whole
+		setup interesting and informal. " ></TextView>
+		
+		
+
+</LinearLayout>
+<LinearLayout android:layout_x="80dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/LinearLayout03" android:layout_y="150dp">
+<TextView 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_marginLeft="15dp" 
+android:layout_marginTop="20dp" 
+android:id="@+id/TextView03" 
+android:textColor="#ffffff"  
+android:gravity="fill_horizontal" 
+android:paddingRight="100dp" 
+android:paddingLeft="20dp" 
+android:text="We serve freshly cooked hygienic food and utmost care is taken to use the ‘in season’ ingredients.
+		You could choose from Indian, European, Russian and Chinese Cuisines at Raj Resorts. Whatever be your taste, its never difficult at
+		Raj Resorts to cater to it. We have perfected the art of fine dining adding our own special flavour to make your meal memorable.
+		The well stocked bar is at your service !! " />
+	
+</LinearLayout>	
+
+</AbsoluteLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<LinearLayout android:paddingLeft="15dip" android:orientation="vertical" android:layout_weight="6" android:id="@+id/LinearLayout01" android:layout_width="467dip" android:layout_height="wrap_content">
+<TextView android:focusable="false" android:textColor="#FFFF00" android:text="Paneer Kebab" android:id="@+id/name" android:textSize="14sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:autoText="true"></TextView>
+<TextView android:focusable="false" android:text="Soft, juicy paneer roaste on a barbeque Soft, juicy paneer roaste on a barbeque Soft, juicy paneer roaste on a barbeque Soft, juicy paneer roaste on a barbeque" android:textSize="10sp" android:id="@+id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:autoText="true"></TextView>
+
+</LinearLayout>
+
+<LinearLayout android:orientation="vertical" android:paddingRight="15dip" android:paddingLeft="50dip" android:gravity="right" android:layout_weight="1" android:id="@+id/LinearLayout02" android:layout_width="0dip" android:layout_height="wrap_content">
+
+<TextView android:focusable="false"  android:text="Rs. 300" android:id="@+id/price" android:textSize="14sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:autoText="true"></TextView>
+</LinearLayout>
+
+</LinearLayout>

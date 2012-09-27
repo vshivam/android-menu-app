@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+ >
+<ImageView android:background="@drawable/first" android:id="@+id/ImageView01" android:layout_width="fill_parent" android:layout_height="fill_parent"></ImageView><TextView  android:shadowColor="#000000" android:textColor="#FFFFFF" android:paddingLeft="565dp" android:layout_gravity="center_vertical" android:autoText="true" android:text="ENTER" android:textSize="21sp" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+
+</LinearLayout>

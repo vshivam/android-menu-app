@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:background="@drawable/newpic1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_x="0dp" android:layout_width="fill_parent" android:layout_height="50dp" android:id="@+id/LinearLayout01" android:layout_y="0dip">
+	<TextView android:text="\t\t\t\t\t  Menu" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="20dp" android:gravity="center" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:layout_x="0dp" android:layout_width="100dp" android:layout_height="fill_parent" android:id="@+id/LinearLayout02" android:layout_y="50dp">
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/homebutton" android:id="@+id/Button01"></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/menubutton" android:id="@+id/Button02"  ></Button>	
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/view_orderbutton" android:id="@+id/Button03"  ></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/call_waiterbutton" android:id="@+id/Button05" ></Button>
+	<Button android:paddingBottom="10dp" android:layout_marginBottom="10dp" android:layout_marginRight="10dp" android:layout_width="100dp" android:layout_height="40dp" android:background="@drawable/helpbutton" android:id="@+id/Button04"></Button>
+	
+
+</LinearLayout>
+<LinearLayout android:layout_x="80dp"   android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/LinearLayout03" android:layout_y="50dp" android:orientation="vertical">
+
+	<LinearLayout android:paddingLeft="30dp" android:layout_x="80dp" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="150dp" android:id="@+id/LinearLayout04" android:layout_y="50dp">
+	
+	<Button android:paddingLeft="20dp" android:id="@+id/Button06" android:layout_width="100dp" android:layout_height="105dp" android:layout_marginLeft="100dp" android:layout_marginRight="25dp" android:background="@drawable/appetizers" android:textColorHighlight="#0000FF" android:textStyle="bold"></Button>
+	<Button android:paddingLeft="20dp" android:id="@+id/Button07" android:layout_width="100dp" android:layout_height="105dp" android:layout_marginRight="25dp" android:background="@drawable/beverages" android:textColorHighlight="#0000FF" android:textStyle="bold"></Button>
+	<Button android:paddingLeft="20dp" android:id="@+id/Button08" android:layout_width="100dp" android:layout_height="105dp" android:layout_marginRight="25dp" android:background="@drawable/soups" android:textColorHighlight="#0000FF" android:textStyle="bold"></Button>
+	</LinearLayout>
+	
+	<LinearLayout android:paddingLeft="30dp" android:layout_x="80dp" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/LinearLayout05" android:layout_y="180dp">
+	
+	<Button  android:id="@+id/Button09" android:layout_width="100dp" android:layout_height="105dp" android:layout_marginLeft="100dp" android:layout_marginRight="25dp" android:layout_marginBottom="80dp" android:background="@drawable/maincourse" android:textColorHighlight="#0000FF" android:textStyle="bold"></Button>
+	<Button  android:id="@+id/Button10" android:layout_width="100dp" android:layout_height="105dp" android:layout_marginRight="25dp" android:layout_marginBottom="20dp" android:background="@drawable/button_salads" android:textColorHighlight="#0000FF" android:textStyle="bold"></Button>
+	<Button  android:id="@+id/Button11" android:layout_width="100dp" android:layout_height="105dp" android:layout_marginRight="25dp" android:layout_marginBottom="20dp" android:background="@drawable/dessert" android:textColorHighlight="#0000FF" android:textStyle="bold"></Button>
+
+	</LinearLayout>
+	
+</LinearLayout>
+</AbsoluteLayout>
